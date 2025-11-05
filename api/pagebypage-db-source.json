@@ -1,0 +1,86 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "1984",
+      "author": "George Orwell",
+      "totalPages": 328,
+      "currentPage": 328,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "Gideon the Ninth",
+      "author": "Tamsyn Muir",
+      "totalPages": 448,
+      "currentPage": 448,
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "totalPages": 324,
+      "currentPage": 156,
+      "status": "reading"
+    },
+    {
+      "id": 4,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "totalPages": 320,
+      "currentPage": 87,
+      "status": "reading"
+    },
+    {
+      "id": 5,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "totalPages": 304,
+      "currentPage": 0,
+      "status": "to-read"
+    }
+  ],
+  "journalEntries": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "pageNumber": 245,
+      "date": "2025-08-10",
+      "notes": "Winston's torture in the Ministry of Love is brutal. The breaking of his spirit shows the ultimate power of totalitarian control. O'Brien's words are haunting.",
+      "impressions": "disturbed"
+    },
+    {
+      "id": 2,
+      "bookId": 2,
+      "pageNumber": 448,
+      "date": "2025-10-30",
+      "notes": "What a wild ride! The necromantic mystery combined with Gideon's sarcastic humor made this unlike anything I've read. The ending completely blindsided me, and the reveal about the Lyctors changed everything",
+      "impressions": "amazed"
+    },
+    {
+      "id": 3,
+      "bookId": 3,
+      "pageNumber": 52,
+      "date": "2025-09-22",
+      "notes": "Scout's perspective as a child narrator is refreshing. Her innocence contrasts with the serious themes of prejudice in Maycomb. Atticus treats his children with respect and honesty.",
+      "impressions": "thoughtful"
+    },
+    {
+      "id": 4,
+      "bookId": 3,
+      "pageNumber": 156,
+      "date": "2025-10-12",
+      "notes": "The courtroom scene is heartbreaking. Despite clear evidence of Tom's innocence, the jury's prejudice is undeniable. This book makes me think deeply about justice systems.",
+      "impressions": "frustrated"
+    },
+    {
+      "id": 5,
+      "bookId": 4,
+      "pageNumber": 87,
+      "date": "2025-10-05",
+      "notes": "The four laws of behavior change are brilliant: make it obvious, make it attractive, make it easy, make it satisfying. I've started habit tracking and it's already helping.",
+      "impressions": "inspired"
+    }
+  ]
+}
