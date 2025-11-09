@@ -1,0 +1,37 @@
+# `journalEntries` resource
+
+The `journalEntries` resource contains information about a user's reading status and notes on their recorded book.
+
+## Base endpoint
+
+```shell
+{base_url}/journalEntries
+```
+
+## Resource properties
+
+sample `journalEntries` resource
+
+```json
+   {
+      "id": 1,
+      "bookId": 1,
+      "pageNumber": 245,
+      "date": "2025-08-10",
+      "notes": "Winston's torture in the Ministry of Love is brutal. The breaking of his spirit shows the ultimate power of totalitarian control. O'Brien's words are haunting.",
+      "impressions": "disturbed"
+    },
+```
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id` | number | The journal entry's unique record id |
+| `bookId` | number | The id associated with the books' resource id |
+| `pageNumber` | number | Page number associated with this journal entry |
+| `date` | string | Timestamp of entry creation |
+| `notes` | string | User-provided notes or annotations  |
+| `impression` | string | User's record of thoughts or impressions about the reading |
+
+### Other resources
+
+Refer to the [books](books.md) resource
