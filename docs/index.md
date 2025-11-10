@@ -19,9 +19,9 @@ Introduction to the Page by Page API, its purpose, and key features.
 
 The API includes two resources:
 
-- [books](books.md)
+- [books](api/books.md)
 
-- [journalEntries](journalEntries.md)
+- [journalEntries](api/journalEntries.md)
 
 Click on the links for detailed descriptions of the service’s resources.
 
