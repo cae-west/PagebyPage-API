@@ -12,6 +12,6 @@ These tutorials are available to help you begin using the Page by Page service.
 
 4. **[Update book details](update-book.md)** - Update the logged information in your collection.
 
-5. **[Search your library](search-library.md)** - Find a book entry based on id. - Coming soon
+5. **[Search your library](search-library.md)** - Find a book entry based on id.
 
-6. **[Delete a book from your library](delete-book.md) - Delete a book entry based on id. - Coming soon
+6. **[Delete a book from your library](delete-book.md)** - Delete a book entry based on id.
