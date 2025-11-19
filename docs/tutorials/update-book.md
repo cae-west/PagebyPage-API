@@ -29,7 +29,7 @@ json-server -w pagebypage-db-source.json
 
 ### Step 5. Navigate to "Headers" and select
 
-     - `Content-Type: application/json`
+- `Content-Type: application/json`
 
 ### Step 6. In the request body enter the properties you want to update
 

@@ -4,9 +4,13 @@ The `books` resource has data about books in a user's library.
 
 ## Base endpoint
 
-```shell
+```bash
 {base_url}/books
 ```
+
+Throughout the API documentation, `{base_url}` represents the root URL where the service runs.
+
+For local development environments, the `{base_url}` is generally `http://localhost:3000`.
 
 ## Resource properties
 
@@ -30,8 +34,16 @@ sample `books` resource
 | `author` | string | Book author |
 | `totalPages` | number | Total pages |
 | `currentPage` | number | Page the user is on  |
-| `status` | string | Done, in progress, or not started|
+| `status` | string | completed, reading, to-read|
 
-### Other resources
+### Jump to
 
-Refer to the [journalEntries](journalEntries.md) resource.
+- Information about the [journalEntries](journalEntries.md) resource.
+- [Set up](/docs/tutorials/prerequisites.md) for installation.
+- Logging your first [book](/docs/tutorials/log-first-book.md).
+
+### Related topics
+
+- [Delete](/docs/tutorials/delete-book.md) a book entry.
+- [Update](/docs/tutorials/update-book.md) a book entry.
+- [Search](/docs/tutorials/search-library.md) by book id.
