@@ -4,9 +4,13 @@ The `journalEntries` resource contains information about a user's reading status
 
 ## Base endpoint
 
-```shell
+```bash
 {base_url}/journalEntries
 ```
+
+Throughout the API documentation, `{base_url}` represents the root URL where the service runs.
+
+For local development environments, the `{base_url}` is generally `http://localhost:3000`.
 
 ## Resource properties
 
@@ -20,7 +24,7 @@ sample `journalEntries` resource
       "date": "2025-08-10",
       "notes": "Winston's torture in the Ministry of Love is brutal. The breaking of his spirit shows the ultimate power of totalitarian control. O'Brien's words are haunting.",
       "impressions": "disturbed"
-    },
+    }
 ```
 
 | Property name | Type | Description |
@@ -32,6 +36,14 @@ sample `journalEntries` resource
 | `notes` | string | User-provided notes or annotations  |
 | `impression` | string | User's record of thoughts or impressions about the reading |
 
-### Other resources
+### Jump to
 
-Refer to the [books](books.md) resource
+- Information about the [books](books.md) resource
+- [Set up](/docs/tutorials/prerequisites.md) for installation.
+- Creating your first [journal entry](/docs/tutorials/create-journal-entry.md).
+
+### Related topics
+
+- [Track](/docs/tutorials/track-progress.md) your reading progress.
+- [Update](/docs/tutorials/update-book.md) a book entry.
+- [Search](/docs/tutorials/search-library.md) by book id.

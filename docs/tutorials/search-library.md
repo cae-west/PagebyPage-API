@@ -1,4 +1,4 @@
-# Tutorial: Search library by book id.
+# Tutorial: Search library by book id
 
 This tutorial demonstrates how to retrieve a specific book from your library using its unique id.
 
@@ -15,6 +15,7 @@ Retrieving a specific book requires the use of the `GET` method to access the [b
 To get a book by id:
 
 ### Step 1. Start your local service by using this command
+
 ```bash
 cd <your-github-workspace>/PagebyPage-API/api>
 json-server -w pagebypage-db-source.json
