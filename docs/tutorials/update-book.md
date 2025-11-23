@@ -63,3 +63,10 @@ A successful body response in Postman looks like this:
 Common errors include syntax errors and incorrect id references.
 
 Confirm you are using numeric values without quotes for `totalPages` and `currentPage`, while `title`, `author`, and `status` are text strings with quotes. Also verify that the book id in the URL corresponds to an existing book in your database.
+
+---
+<div style="text-align: center;">
+
+ [Home](../index.md)
+
+</div>

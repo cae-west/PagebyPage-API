@@ -65,3 +65,10 @@ A successful body response in Postman looks like this:
 Common errors include syntax errors.
 
 Ensure that `bookId` and `pageNumber` are numeric values without quotes, while `date`, `notes`, and `impressions` are text strings with quotes. Commas are to used to separate properties.
+
+---
+<div style="text-align: center;">
+
+ [Home](../index.md)
+
+</div>

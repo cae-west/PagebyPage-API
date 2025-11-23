@@ -61,3 +61,10 @@ A successful body response in Postman looks like this:
 Common errors include syntax errors and incorrect id references.
 
 Confirm you are using a numeric value without quotes for `pageNumber`. Also verify that the journal entry id in the URL corresponds to an existing entry in your database.
+
+---
+<div style="text-align: center;">
+
+ [Home](../index.md)
+
+</div>

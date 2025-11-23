@@ -39,11 +39,11 @@ sample `journalEntries` resource
 ### Jump to
 
 - Information about the [books](books.md) resource
-- [Set up](/docs/tutorials/prerequisites.md) for installation.
-- Creating your first [journal entry](/docs/tutorials/create-journal-entry.md).
+[Set up](../tutorials/prerequisites.md) for installation.
+- Creating your first [journal entry](../tutorials/create-journal-entry.md).
 
 ### Related topics
 
-- [Track](/docs/tutorials/track-progress.md) your reading progress.
-- [Update](/docs/tutorials/update-book.md) a book entry.
-- [Search](/docs/tutorials/search-library.md) by book id.
+- [Track](../tutorials/track-progress.md) your reading progress.
+- [Update](../tutorials/update-book.md) a book entry.
+- [Search](../tutorials/search-library.md) by book id.
