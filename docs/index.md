@@ -41,3 +41,7 @@ Step-by-step guides for common tasks:
 [← Previous](./tutorials/tutorials.md) | [Home](index.md) | [Next →](./Overview/overview.md)
 
 </div>
+3. **[Track your reading progress](tutorials/track-progress.md)** - Update and retrieve your current page number.
+4. **[Update book details](tutorials/update-book.md)** - Update the logged information in your collection.
+5. **[Search your library](tutorials/search-library.md)** - Find specific books and entries.
+6. **[Delete a book from your library](tutorials/delete-book.md)** - Delete a book entry based on id.
