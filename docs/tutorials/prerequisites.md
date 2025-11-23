@@ -117,3 +117,10 @@ When you see a list of books from the service, you are ready to proceed to the [
 1. You aren't in the correct directory.
 2. You mistyped the command.
 3. Installation of a required software component didn't install correctly or is in need of an update.
+
+---
+<div style="text-align: center;">
+
+ [Home](../index.md)
+
+</div>

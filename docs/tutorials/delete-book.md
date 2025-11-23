@@ -50,3 +50,10 @@ You can verify the deletion by attempting to retrieve the same book id using a `
 Common errors include incorrect id references and attempting to delete non-existent books.
 
 Verify that the book id in the URL corresponds to an existing book in your database. If you receive a 404 error before deleting, the book with that id doesn't exist in your library and can't be removed.
+
+---
+<div style="text-align: center;">
+
+ [Home](../index.md)
+
+</div>

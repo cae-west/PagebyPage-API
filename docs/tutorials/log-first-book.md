@@ -65,3 +65,10 @@ A successful body response in Postman looks like this:
 Common errors include syntax errors.
 
 Confirm you are placing quotes around text entries and using commas to separate properties. Also ensure that `totalPages` and `currentPage` are numeric values without quotes, while `title`, `author`, and `status` are text strings with quotes.
+
+---
+<div style="text-align: center;">
+
+ [Home](../index.md)
+
+</div>

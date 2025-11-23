@@ -55,3 +55,10 @@ A successful body response in Postman looks like this:
 Common errors include incorrect id references and malformed URLs.
 
 Verify that the book id in the URL corresponds to an existing book in your database. If you receive a 404 error, the book with that id may not exist in your library.
+
+---
+<div style="text-align: center;">
+
+ [Home](../index.md)
+
+</div>

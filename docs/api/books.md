@@ -24,7 +24,7 @@ sample `books` resource
       "totalPages": 328,
       "currentPage": 328,
       "status": "completed"
-    },
+    }
 ```
 
 | Property name | Type | Description |
@@ -39,11 +39,11 @@ sample `books` resource
 ### Jump to
 
 - Information about the [journalEntries](journalEntries.md) resource.
-- [Set up](/docs/tutorials/prerequisites.md) for installation.
-- Logging your first [book](/docs/tutorials/log-first-book.md).
+- [Set up](../tutorials/prerequisites.md) for installation.
+- Logging your first [book](../tutorials/log-first-book.md).
 
 ### Related topics
 
-- [Delete](/docs/tutorials/delete-book.md) a book entry.
-- [Update](/docs/tutorials/update-book.md) a book entry.
-- [Search](/docs/tutorials/search-library.md) by book id.
+- [Delete](../tutorials/delete-book.md) a book entry.
+- [Update](../tutorials/update-book.md) a book entry.
+- [Search](../tutorials/search-library.md) by book id.
