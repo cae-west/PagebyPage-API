@@ -4,7 +4,7 @@ This page serves as an introduction to the Page by Page API, its purpose, key fe
 
 ## Overview
 
-The Page by Page service is a REST API that transforms reading from a passive hobby into an active practice. [Learn more](.Overview/overview.md) on how different audiences can use this API.
+The Page by Page service is a REST API that transforms reading from a passive hobby into an active practice. **[Learn more](overview/overview.md)** on how different audiences can use this API.
 
 ## API references
 
@@ -30,17 +30,6 @@ Step-by-step guides for common tasks:
 
 1. **[Log your first book](tutorials/log-first-book.md)** -  Add a new book to your reading list.
 2. **[Create a journal entry](tutorials/create-journal-entry.md)** - Record thoughts and notes about your reading.
-3. **[Track your reading progress](track-progress.md)** - Update and retrieve your current page number.
-4. **[Update book details](update-book.md)** - Update the logged information in your collection.
-5. **[Search your library](search-library.md)** - Find specific books and entries.
-6. **[Delete a book from your library](delete-book.md)** - Delete a book entry based on id.
-
----
-<div style="text-align: center;">
-
-[← Previous](./tutorials/tutorials.md) | [Home](index.md) | [Next →](./Overview/overview.md)
-
-</div>
 3. **[Track your reading progress](tutorials/track-progress.md)** - Update and retrieve your current page number.
 4. **[Update book details](tutorials/update-book.md)** - Update the logged information in your collection.
 5. **[Search your library](tutorials/search-library.md)** - Find specific books and entries.

@@ -1,4 +1,4 @@
-# Tutorial: Update a journal entry page number
+# Tutorial: Update a journal entry
 
 This tutorial demonstrates the operations to call to update the page number of an existing journal entry in the service.
 
@@ -10,7 +10,7 @@ Make sure you've completed the steps on the [prerequisites](prerequisites.md) pa
 
 ## Update a journal entry page number
 
-Updating the page number of an existing journal entry requires the use of the `PATCH` method to modify the [journal entry](../api/journalEntries.md) resource in the service.
+Updating the page number of an existing journal entry requires the use of the `PATCH` method to update the [journal entry](../api/journalEntries.md) resource in the service.
 
 To update a journal entry page number:
 
@@ -62,9 +62,16 @@ Common errors include syntax errors and incorrect id references.
 
 Confirm you are using a numeric value without quotes for `pageNumber`. Also verify that the journal entry id in the URL corresponds to an existing entry in your database.
 
----
-<div style="text-align: center;">
+## Helpful links
 
- [Home](../index.md)
+**[Home](../index.md)**
 
-</div>
+**[Create journal entry](create-journal-entry.md)**
+
+**[Log your first book](log-first-book.md)**
+
+**[Update book details](update-book.md)**
+
+**[Search your library](search-library.md)**
+
+**[Delete a book from your library](delete-book.md)**

@@ -56,9 +56,16 @@ Common errors include incorrect id references and malformed URLs.
 
 Verify that the book id in the URL corresponds to an existing book in your database. If you receive a 404 error, the book with that id may not exist in your library.
 
----
-<div style="text-align: center;">
+## Helpful links
 
- [Home](../index.md)
+**[Home](../index.md)**
 
-</div>
+**[Create journal entry](create-journal-entry.md)**
+
+**[Track your reading progress](track-progress.md)**
+
+**[Update book details](update-book.md)**
+
+**[Search your library](search-library.md)**
+
+**[Delete a book from your library](delete-book.md)**
