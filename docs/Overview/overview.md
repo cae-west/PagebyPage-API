@@ -24,9 +24,4 @@ Give your mind a break and build meaningful reading habits. The Page by Page API
 
 Learn more about the [books](../api/books.md) and [journalEntries](../api/journalEntries.md) resources.
 
----
-<div style="text-align: center;">
-
- [Home](../index.md)
-
-</div>
+Return [home](../index.md)

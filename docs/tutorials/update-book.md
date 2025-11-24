@@ -64,9 +64,16 @@ Common errors include syntax errors and incorrect id references.
 
 Confirm you are using numeric values without quotes for `totalPages` and `currentPage`, while `title`, `author`, and `status` are text strings with quotes. Also verify that the book id in the URL corresponds to an existing book in your database.
 
----
-<div style="text-align: center;">
+## Helpful links
 
- [Home](../index.md)
+**[Home](../index.md)**
 
-</div>
+**[Log your first book](log-first-book.md)**
+
+**[Track your reading progress](track-progress.md)**
+
+**[Create journal entry](create-journal-entry.md)**
+
+**[Search your library](search-library.md)**
+
+**[Delete a book from your library](delete-book.md)**

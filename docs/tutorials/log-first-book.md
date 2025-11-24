@@ -66,9 +66,16 @@ Common errors include syntax errors.
 
 Confirm you are placing quotes around text entries and using commas to separate properties. Also ensure that `totalPages` and `currentPage` are numeric values without quotes, while `title`, `author`, and `status` are text strings with quotes.
 
----
-<div style="text-align: center;">
+## Helpful links
 
- [Home](../index.md)
+**[Home](../index.md)**
 
-</div>
+**[Update book details](update-book.md)**
+
+**[Track your reading progress](track-progress.md)**
+
+**[Update book details](update-book.md)**
+
+**[Search your library](search-library.md)**
+
+**[Create journal entry](create-journal-entry.md)**

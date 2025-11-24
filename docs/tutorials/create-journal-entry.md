@@ -25,7 +25,7 @@ json-server -w pagebypage-db-source.json
 
 ### Step 2. Select `POST` in the left hand corner
 
-### Step 3. Enter the {{base_url}}/journalEntries URL
+### Step 3. Enter {{base_url}}/journalEntries
 
 ### Step 4. Navigate to "Headers" and select
 
@@ -66,9 +66,16 @@ Common errors include syntax errors.
 
 Ensure that `bookId` and `pageNumber` are numeric values without quotes, while `date`, `notes`, and `impressions` are text strings with quotes. Commas are to used to separate properties.
 
----
-<div style="text-align: center;">
+## Helpful links
 
- [Home](../index.md)
+**[Home](../index.md)**
 
-</div>
+**[Log your first book](log-first-book.md)**
+
+**[Track your reading progress](track-progress.md)**
+
+**[Update book details](update-book.md)**
+
+**[Search your library](search-library.md)**
+
+**[Delete a book from your library](delete-book.md)**
