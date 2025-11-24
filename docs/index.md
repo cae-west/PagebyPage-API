@@ -4,7 +4,7 @@ This page serves as an introduction to the Page by Page API, its purpose, key fe
 
 ## Overview
 
-The Page by Page service is a REST API that transforms reading from a passive hobby into an active practice. **[Learn more](overview/overview.md)** on how different audiences can use this API.
+The Page by Page service is a REST API that transforms reading from a passive hobby into an active practice. **[Learn more](./overview/overview.md)** on how different audiences can use this API.
 
 ## API references
 
