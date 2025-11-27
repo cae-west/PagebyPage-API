@@ -2,68 +2,65 @@
 
 Perform the following steps before beginning a tutorial for the Page by Page service.
 
-## FYI about the API
+## Important details
 
 - Server: This API runs on your local machine or a chosen server environment.
 - Base URL: `http://localhost:3000` or your own {base_url} server.
 - Data format: JSON for all requests and responses.
 
-## Getting started
+## Get started
 
 To use the Page by Page API you need:
 
-- A [GitHub](https://github.com/) account
-- [Git](https://git-scm.com/downloads)
-- [node.js](https://nodejs.org/en/download)
-- [json-server](https://www.npmjs.com/package/json-server)
-- [curl](https://curl.se/download.html) or [Postman desktop app](https://www.postman.com/downloads/)
+- A [GitHub](https://github.com/) account.
+- [Git](https://git-scm.com/downloads).
+- [node.js](https://nodejs.org/en/download).
+- [json-server](https://www.npmjs.com/package/json-server).
+- [curl](https://curl.se/download.html) or [Postman desktop app](https://www.postman.com/downloads/).
 
 ## Set up
 
-### Step 1: create a fork of the [Page by Page API repository](https://github.com/Venutom/PagebyPage-API)
+1. Create a fork of the [Page by Page API repository](https://github.com/Venutom/PagebyPage-API).
 
-### Step 2: clone your fork to your local machine
+1. Clone your fork to your local machine.
 
-### Step 3: open your terminal and navigate to the repository
+1. Open your terminal and navigate to the repository.
 
-```bash
-cd <your-github-workspace>/PagebyPage-API/api
-```
+    ```bash
+    cd <your-github-workspace>/PagebyPage-API/api
+    ```
+    **For example:**
 
-**For example:**
+    ```bash
+    cd ~/OneDrive/Documents/GitHub/PagebyPage-API/api
+    ```
 
-```bash
-cd ~/OneDrive/Documents/GitHub/PagebyPage-API/api
-```
+1. In that same terminal, start the JSON server.
 
-### Step 4: in that same terminal, start the JSON server
+    ```bash
+    json-server -w pagebypage-db-source.json
+    ```
 
-```bash
-json-server -w pagebypage-db-source.json
-```
+1. Proceed to the next section when you see:
 
-**You are ready to test with curl if you see:**
+  ```bash
+      Resources
+      http://localhost:3000/books
+      http://localhost:3000/journalEntries
 
-```bash
-Resources
-http://localhost:3000/books
-http://localhost:3000/journalEntries
-
-Home
-http://localhost:3000
-```
+      Home
+      http://localhost:3000
+  ```
 
 ## Test with curl
 
-### Step 1: open a new terminal window and run
+1. Open a new terminal window and run:
 
-```bash
-curl http://localhost:3000/books
-```
+  ```bash
+    curl http://localhost:3000/books
+  ```
 
-**You are successful if you see a list of books in JSON format.**
-
-For example:
+1. When you see a list of books in JSON format proceed to the [Tutorials](tutorials.md) section.
 
 ```bash
 [
@@ -110,10 +107,8 @@ For example:
 ]
 ```
 
-When you see a list of books from the service, you are ready to proceed to the [Tutorials](tutorials.md).
-
 ### Common errors
 
 1. You aren't in the correct directory.
-2. You mistyped the command.
-3. Installation of a required software component didn't install correctly or is in need of an update.
+1. You mistyped the command.
+1. Installation of a required software component didn't install correctly or is in need of an update.

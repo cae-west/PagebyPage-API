@@ -12,35 +12,33 @@ Make sure you've completed the steps on the [prerequisites](prerequisites.md) pa
 
 Updating the details of an existing book requires the use of the `PATCH` method to update the [book](../api/books.md) resource in the service.
 
-To update book details:
+Follow the steps below to update book details:
 
-### Step 1. Start your local service by using this command
+1. Start your local service by using this command:
 
-```bash
-cd <your-github-workspace>/PagebyPage-API/api>
-json-server -w pagebypage-db-source.json
-```
+    ```bash
+    cd <your-github-workspace>/PagebyPage-API/api>
+    json-server -w pagebypage-db-source.json
+    ```
 
-### Step 2. Open the Postman app
+1. Open the Postman app.
 
-### Step 3. Select `PATCH` in the left hand corner
+1. Select `PATCH` in the left hand corner.
 
-### Step 4. Enter the {{base_url}}/books/{id} URL, replacing `{id}` with the id of the book you want to update
+1. Enter the {{base_url}}/books/{id} URL, replacing `{id}` with the id of the book you want to update.
 
-### Step 5. Navigate to "Headers" and select
+1. Navigate to "Headers" and select: `Content-Type: application/json`.
 
-- `Content-Type: application/json`
+1. In the request body enter the properties you want to update.
 
-### Step 6. In the request body enter the properties you want to update
+    ```json
+    {
+        "currentPage": 324
+        "status": "completed"
+    }
+    ```
 
-```json
-{
-    "currentPage": 324
-    "status": "completed"
-}
-```
-
-### Step 7. Make the request by selecting **Send**
+1. Make the request by selecting **Send**.
 
 ## Confirm success
 
