@@ -22,3 +22,55 @@ aux_links:
 
 # Open aux links in new tab
 aux_links_new_tab: true
+
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: light
+
+title: Page by Page API Documentation
+description: Track progress, capture thoughts. One page at at a time.
+
+#   !!! CHANGE THIS TO MATCH THE URL OF YOUR PUBLISHED DOCS
+url: https://venutom.github.io/PagebyPage-API/
+baseurl: "/PagebyPage-API"
+#
+#   +++ REMOVE IF YOU DON'T WANT THE AUX LINKS AT THE TOP OF THE PAGE
+#       OR ADD MORE LINKS AS SUPPORTED BY THE THEME
+aux_links: 
+  To-Do Service repo: https://github.com/Venutom/PagebyPage-API
+#
+permalink: pretty
+#
+search_enabled: true
+search:
+
+  heading_level: 2
+
+  previews: 2
+
+  preview_words_before: 3
+  
+  preview_words_after: 3
+ 
+  tokenizer_separator: /[\s/]+/
+
+  rel_url: true
+  
+  button: false
+
+  focus_shortcut_key: 'k'
+
+enable_copy_code_button: false
+
+heading_anchors: false
+
+nav_enabled: true
+
+nav_sort: case_insensitive # default, equivalent to nil
+
+liquid:
+   error_mode: strict
+   strict_filters: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
