@@ -1,0 +1,46 @@
+color_scheme: light
+
+title: Page by Page API documentation
+description: Track progress, capture thoughts. One page at a time.
+
+url: https://venutom.github.io/PagebyPage-API/
+baseurl: "/PagebyPage-API"
+
+aux_links: 
+  To-Do Service repo: https://github.com/Venutom/PagebyPage-API
+
+permalink: pretty
+
+search_enabled: true
+search:
+  
+  heading_level: 2
+
+  previews: 2
+ 
+  preview_words_before: 3
+
+  preview_words_after: 3
+
+  tokenizer_separator: /[\s/]+/
+
+  rel_url: true
+ 
+  button: false
+  
+  focus_shortcut_key: 'k'
+
+enable_copy_code_button: true
+
+heading_anchors: true
+
+nav_enabled: true
+
+nav_sort: case_insensitive # default, equivalent to nil
+
+liquid:
+   error_mode: strict
+   strict_filters: true
+
+back_to_top: true
+back_to_top_text: "Back to top"

@@ -12,38 +12,36 @@ Make sure you've completed the steps on the [prerequisites](prerequisites.md) pa
 
 Adding a new journal entry to the service requires the use of the `POST` method to store the details of the new [journal entry](../api/journalEntries.md) resource in the service.
 
-To create a new journal entry:
+Follow the steps below to create a new journal entry:
 
-**Start your local service by using this command:**
+1. Start your local service using the following command:
 
-```bash
-cd <your-github-workspace>/PagebyPage-API/api>
-json-server -w pagebypage-db-source.json
-```
+    ```bash
+        cd <your-github-workspace>/PagebyPage-API/api>
+        json-server -w pagebypage-db-source.json
+    ```
 
-### Step 1. Open the Postman app
+1. Open the Postman app.
 
-### Step 2. Select `POST` in the left hand corner
+1. Select `POST` in the left hand corner.
 
-### Step 3. Enter {{base_url}}/journalEntries
+1. Enter `{{base_url}}/journalEntries`.
 
-### Step 4. Navigate to "Headers" and select
+1. Navigate to "Headers" and select: `Content-Type: application/json`.
 
-- `Content-Type: application/json`
+1. In the request body enter the values of each property per your needs.
 
-### Step 5. In the request body enter the values of each property per your needs
+    ```json
+        {
+            "bookId": 1,
+            "pageNumber": 245,
+            "date": "2025-08-10",
+            "notes": "Winston's torture in the Ministry of Love is brutal. The breaking of his spirit shows the ultimate power of totalitarian control. O'Brien's words are haunting.",
+            "impressions": "disturbed"
+        }
+    ```
 
-```json
-{
-    "bookId": 1,
-    "pageNumber": 245,
-    "date": "2025-08-10",
-    "notes": "Winston's torture in the Ministry of Love is brutal. The breaking of his spirit shows the ultimate power of totalitarian control. O'Brien's words are haunting.",
-    "impressions": "disturbed"
-}
-```
-
-### Step 6. Make the request by selecting **Send**
+1. Make the request by selecting **Send**.
 
 ## Confirm success
 

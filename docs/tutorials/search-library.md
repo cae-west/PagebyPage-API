@@ -12,28 +12,28 @@ Make sure you've completed the steps on the [prerequisites](prerequisites.md) pa
 
 Retrieving a specific book requires the use of the `GET` method to access the [book](../api/books.md) resource in the service.
 
-To get a book by id:
+Follow the steps below to get a book by id:
 
-### Step 1. Start your local service by using this command
+1. Start your local service by using the following command:
 
-```bash
-cd <your-github-workspace>/PagebyPage-API/api>
-json-server -w pagebypage-db-source.json
-```
+    ```bash
+        cd <your-github-workspace>/PagebyPage-API/api>
+        json-server -w pagebypage-db-source.json
+    ```
 
-### Step 2. Open the Postman app
+1. Open the Postman app.
 
-### Step 3. Select `GET` in the left hand corner
+1. Select `GET` in the left hand corner
 
-### Step 4. Enter the {{base_url}}/books/{id} URL, replacing `{id}` with the id of the book you want to retrieve
+1. Enter the {{base_url}}/books/{id} URL, replacing `{id}` with the id of the book you want to retrieve
 
-For example, to retrieve the book with id 7, use:
+    For example, to retrieve the book with id 7, use:
 
-```json
-{{base_url}}/books/7
-```
+    ```json
+        {{base_url}}/books/7
+    ```
 
-### Step 5. Make the request by selecting **Send**
+1. Make the request by selecting **Send**
 
 ## Confirm success
 
