@@ -1,0 +1,24 @@
+title: Page by Page API Documentation
+description: Track progress, capture thoughts. One page at at a time.
+
+remote_theme: just-the-docs/just-the-docs
+
+#theme: "just-the-docs"
+
+# Enable search
+search_enabled: true
+
+# Enable breadcrumbs
+breadcrumbs: true
+
+# GitHub Pages settings
+url: "https://venutom.github.io"
+baseurl: "/PagebyPage-API"
+
+# Add "View on GitHub" button
+aux_links:
+  "View on GitHub":
+    -"https://github.com/venutom/PagebyPage-API"
+
+# Open aux links in new tab
+aux_links_new_tab: true
