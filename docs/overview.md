@@ -25,7 +25,7 @@ last_updated: "2025-12-01"
 # vale on
 # markdownlint-enable
 ---
-# Introduction
+# Overview
 
 Page by Page is a REST API that transforms the reading experience by simplifying the library management and note taking process. Instead of writing in the margins or sifting through bookshelves, the platform allows users to log, store, and retrieve data based on a unique book or journal entry ID.
 

@@ -1,7 +1,7 @@
 ---
 # markdownlint-disable
 # vale off
-layout: default:
+layout: default
 nav_order: 3
 # tags used by AI files
 description: This page serves as an introduction to the Page by Page API, its purpose, key features, tutorials, and prerequisites.
