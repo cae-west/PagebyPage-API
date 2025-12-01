@@ -37,7 +37,7 @@ baseurl: "/PagebyPage-API"
 #   +++ REMOVE IF YOU DON'T WANT THE AUX LINKS AT THE TOP OF THE PAGE
 #       OR ADD MORE LINKS AS SUPPORTED BY THE THEME
 aux_links: 
-  To-Do Service repo: https://github.com/Venutom/PagebyPage-API
+  PagebyPage API repo: https://github.com/Venutom/PagebyPage-API
 #
 permalink: pretty
 #
