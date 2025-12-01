@@ -1,7 +1,7 @@
 ---
 # markdownlint-disable
 # vale off
-layout: default
+layout: default:
 nav_order: 4
 has children: true
 has_toc: false
