@@ -1,8 +1,8 @@
 ---
 # markdownlint-disable
 # vale off
-layout: default:
-parent: Introduction
+layout: default
+parent: Overview
 nav_order: 2
 ---
 # `journalEntries` resource
