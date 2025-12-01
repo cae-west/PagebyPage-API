@@ -1,3 +1,10 @@
+---
+# markdownlint-disable
+# vale off
+layout: default:
+parent: Overview
+nav_order: 1
+---
 # `books` resource
 
 The `books` resource has data about books in a user's library.
