@@ -1,3 +1,30 @@
+---
+# markdownlint-disable
+# vale off
+layout: default
+nav_order: 2
+has_children: true
+has_toc: false
+# tags used by AI files
+description: This page serves as an introduction to the Page by Page API, its purpose, key features, tutorials, and prerequisites.
+tags:
+    - landing page
+categories:
+    - landing page
+ai_relevance: high
+importance: 9
+prerequisites: []
+related_pages:
+    - /overview.md
+    - /tutorials/prerequisites.md
+    - /tutorials/tutorials.md
+examples: []
+api_endpoints: []
+version: "v1.0"
+last_updated: "2025-12-01"
+# vale on
+# markdownlint-enable
+---
 # Introduction
 
 Page by Page is a REST API that transforms the reading experience by simplifying the library management and note taking process. Instead of writing in the margins or sifting through bookshelves, the platform allows users to log, store, and retrieve data based on a unique book or journal entry ID.

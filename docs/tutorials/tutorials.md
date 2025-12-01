@@ -1,3 +1,30 @@
+---
+# markdownlint-disable
+# vale off
+layout: default
+nav_order: 4
+has children: true
+has_toc: false
+# tags used by AI files
+description: Tutorial landing page
+tags:
+    - tutorial
+categories:
+    - tutorial
+ai_relevance: high
+importance: 9
+prerequisites: []
+related_pages:
+    - /overview.md
+    - /tutorials/prerequisites.md
+    - /tutorials/tutorials.md
+examples: []
+api_endpoints: []
+version: "v1.0"
+last_updated: "2025-12-01"
+# vale on
+# markdownlint-enable
+---
 # Tutorials
 
 Before you begin, be sure to visit the [prerequisites](prerequisites.md) page.

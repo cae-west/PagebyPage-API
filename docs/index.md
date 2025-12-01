@@ -1,10 +1,36 @@
+---
+# markdownlint-disable
+# vale off
+layout: default
+nav_order: 1
+# tags used by AI files
+description: This page serves as an introduction to the Page by Page API, its purpose, key features, tutorials, and prerequisites.
+tags:
+    - landing page
+categories:
+    - landing page
+ai_relevance: high
+importance: 9
+prerequisites: []
+related_pages:
+    - /overview.md
+    - /tutorials/prerequisites.md
+    - /tutorials/tutorials.md
+examples: []
+api_endpoints: []
+version: "v1.0"
+last_updated: "2025-12-01"
+# vale on
+# markdownlint-enable
+---
+
 # Page by Page API documentation
 
 This page serves as an introduction to the Page by Page API, its purpose, key features, tutorials, and prerequisites.
 
 ## Overview
 
-The Page by Page service is a REST API that transforms reading from a passive hobby into an active practice. **[Learn more](../overview.md)** on how different audiences can use this API.
+The Page by Page service is a REST API that transforms reading from a passive hobby into an active practice. **[Learn more](./../overview.md)** on how different audiences can use this API.
 
 ## API references
 
