@@ -47,8 +47,8 @@ Give your mind a break and build meaningful reading habits. The Page by Page API
 
 ### Related topics
 
-[Set up your enviornment](../tutorials/prerequisites.md).
+[Set up your enviornment](tutorials/prerequisites.md).
 
-Learn more about the [books](../api/books.md) and [journalEntries](../api/journalEntries.md) resources.
+Learn more about the [books](api/books.md) and [journalEntries](api/journalEntries.md) resources.
 
-Return [home](../index.md)
+Return [home](index.md)
