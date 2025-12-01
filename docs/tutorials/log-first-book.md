@@ -1,3 +1,18 @@
+---
+# markdownlint-disable
+# vale off
+layout: deafult
+parent: Tutorials
+nav_order: 3
+# tags used by AI files
+description: Get all 'collections' from the collection resource
+tags:
+    - api
+categories:
+    - tutorials
+ai_relevance: high
+importance: 6
+---
 # Tutorial: Log a new book
 
 This tutorial demonstrates the operations to call to log a new book into the service.

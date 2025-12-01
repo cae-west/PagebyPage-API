@@ -1,3 +1,10 @@
+---
+# markdownlint-disable
+# vale off
+layout: default:
+parent: Overview
+nav_order: 2
+---
 # `journalEntries` resource
 
 The `journalEntries` resource contains information about a user's reading status and notes on their recorded book.

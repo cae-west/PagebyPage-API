@@ -1,3 +1,18 @@
+---
+# markdownlint-disable
+# vale off
+layout: deafult
+parent: Tutorials
+nav_order: 5
+# tags used by AI files
+description: Get all 'collections' from the collection resource
+tags:
+    - api
+categories:
+    - tutorials
+ai_relevance: high
+importance: 6
+---
 # Tutorial: Update a journal entry
 
 This tutorial demonstrates the operations to call to update the page number of an existing journal entry in the service.
