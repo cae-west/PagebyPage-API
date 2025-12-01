@@ -1,7 +1,7 @@
 ---
 # markdownlint-disable
 # vale off
-layout: deafult
+layout: default
 parent: Tutorials
 nav_order: 1
 # tags used by AI files
